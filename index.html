@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Sorting Visualizer</title>
+</head>
+<body>
+    <h1 style="color: white; font-weight: bold; position: absolute; left: 20px; top: 20px;">Bubble Sort</h1>
+    <br>
+        <div id="controls"> 
+            <p id="element"><b>Elements:</b> <span id="nValue"></span></p>
+            <input type="range" id="barSlider" min="10" max="100"  class="slider">    
+            <button onclick="init()" class="image-button" id="initbutton">
+                <img src="/resources/shuffle_FILL0_wght400_GRAD0_opsz24.png" alt="Initialize">
+            </button>
+            <button onclick="play()" class="image-button" id="playbutton">
+                <img src="/resources/play_arrow_FILL0_wght400_GRAD0_opsz24.png" alt="Start Sorting">
+            </button>  
+            
+        </div>
+
+    <div id="container"></div>
+    <hr>
+   
+    <script src="index.js"></script>
+</body>
+</html>

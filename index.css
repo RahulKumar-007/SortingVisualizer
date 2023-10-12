@@ -1,0 +1,59 @@
+#container {
+    height: 750px;
+    width: 1400px;
+    display: flex;
+    align-items: flex-end;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    
+}
+
+.bar {
+    width: 20px;
+    background-color: grey;
+    margin-left: 2px;
+}
+
+.image-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.image-button img {
+    width: 40px; /* Set the desired width */
+    height: 40px; /* Set the desired height */
+    border-radius: 40px;
+    background-color: aliceblue;
+
+}
+
+#initbutton{
+    margin-left: 500px;
+    margin-right: 100px;
+}
+
+#controls{
+    margin-top: 40px;
+    margin-bottom: 10px;   
+}
+
+#element{
+    color: aquamarine;
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-left: 75px;
+}
+
+#barSlider{
+    width: 400px;
+}
+
+
